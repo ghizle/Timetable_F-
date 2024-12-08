@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "isEmailVerified": true,
+      "isActive": true,
+      "lastLogin": "2024-03-15T10:00:00Z",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-03-15T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Teacher ",
+      "email": "teacher@example.com",
+      "password": "teacher123",
+      "role": "teacher",
+      "isEmailVerified": true,
+      "isActive": true,
+      "lastLogin": "2024-03-15T09:00:00Z",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-03-15T09:00:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Student ",
+      "email": "student@example.com",
+      "password": "student123",
+      "role": "student",
+      "isEmailVerified": true,
+      "isActive": true,
+      "lastLogin": "2024-03-15T08:00:00Z",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-03-15T08:00:00Z"
+    },
+    {
+      "id": "1733258440548",
+      "name": "ghizlen",
+      "email": "ghizlenmaaroufi2003@gmail.com",
+      "password": "ghizlen",
+      "role": "admin",
+      "isEmailVerified": false,
+      "isActive": true,
+      "lastLogin": "2024-12-03T21:40:40.548649",
+      "createdAt": "2024-12-03T21:40:40.548861",
+      "updatedAt": "2024-12-03T21:40:40.548908"
+    },
+    {
+      "id": "1733304773842",
+      "name": "maaroufi",
+      "email": "maaroufi@gmail.com",
+      "role": "teacher",
+      "profileImage": null,
+      "isEmailVerified": false,
+      "isActive": true,
+      "lastLogin": null,
+      "createdAt": "2024-12-04T10:32:53.842454",
+      "updatedAt": "2024-12-04T10:32:53.842462"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "1",
+      "name": "DevOps",
+      "code": "dev101",
+      "description": "Basic DevOps Course",
+      "credits": 3,
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "java",
+      "code": "java101",
+      "description": "Introduction to java",
+      "credits": 4,
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1",
+      "name": "Room 101",
+      "building": "Main Building",
+      "capacity": 30,
+      "isActive": true,
+      "facilities": [
+        "projector",
+        "whiteboard"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Room 102",
+      "building": "Main Building",
+      "capacity": 25,
+      "isActive": true,
+      "facilities": [
+        "whiteboard"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "classes": [
+    {
+      "id": "1",
+      "name": "DevOps Class A",
+      "subjectId": "1",
+      "studentIds": [
+        "3"
+      ],
+      "capacity": 30,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "java Class A",
+      "subjectId": "2",
+      "studentIds": [
+        "3"
+      ],
+      "capacity": 25,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "sessions": [
+  
+  ]
+}
